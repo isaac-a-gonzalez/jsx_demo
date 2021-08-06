@@ -7,6 +7,7 @@ function getMood() {
 class JSXDemo extends React.Component {
   render() {
     return (
+      // the curly braces in the h1 is escaped javascript code
       <div>
         <h1>My Current Mood is: {getMood()}</h1>
       </div>
